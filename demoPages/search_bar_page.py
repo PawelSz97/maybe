@@ -6,3 +6,4 @@ class SearchBarPage:
         self.driver = driver
 
         self.product_expcted_name = "Cap"
+    
