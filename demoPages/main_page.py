@@ -31,3 +31,5 @@ class MainPage:
     def enter_value_into_search_bar(self):
         search_bar = self.driver.find_element(By.CSS_SELECTOR,'#woocommerce-product-search-field-0')
         search_bar.send_keys('Cap').submit()
+
+    
